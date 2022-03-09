@@ -1,5 +1,6 @@
 //leetcode.com/problems/first-unique-character-in-a-string/
 class Solution {
+    //for better space:use frequency array instead of hashmap
     public int firstUniqChar(String s) {
         int n=s.length();
         HashMap<Character,Integer> mp=new HashMap<>();
